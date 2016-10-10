@@ -1,9 +1,4 @@
 
-
-
-# edit here to achieve your personal greatness
-url: http://localhost:4000/
+url: "http://fulya.ca"
 baseurl:
-title: Chris Turner
-author: Chris Turner
-description: Personal blog and resume
+
