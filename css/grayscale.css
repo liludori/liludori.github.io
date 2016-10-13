@@ -35,7 +35,8 @@ p {
   p {
     margin: 0 0 35px;
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.7;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 a {
@@ -54,7 +55,6 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
@@ -63,6 +63,7 @@ a:focus {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
+  margin-top: 15px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -70,6 +71,7 @@ a:focus {
 }
 .navbar-custom .navbar-brand {
   background: url(../img/logo.png) no-repeat;
+  margin: 10px;
   background-size: 100%;
   width: 55px;
   height: 49px;
@@ -124,7 +126,7 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 100px 0;
   text-align: center;
   color: white;
@@ -144,6 +146,8 @@ a:focus {
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: .5;
 }
 @media (min-width: 768px) {
   .intro {
@@ -151,13 +155,14 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 10px;
   }
   .intro .intro-body .intro-text {
-    font-size: 18px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    opacity: .5;
+    font-size: 20px;
+  }
+  .intro .navbar-brand {
+    margin: 0;
   }
 }
 .btn-circle {
@@ -299,6 +304,7 @@ footer {
 }
 footer p {
   margin: 0;
+  font-size: 14px;
 }
 ::-moz-selection {
   text-shadow: none;
