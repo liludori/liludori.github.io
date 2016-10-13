@@ -1,4 +1,4 @@
 # liludori.github.io
 Fulya Gürsel Website
 
-http://liludori.github.io
+https://liludori.github.io
