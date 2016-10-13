@@ -164,6 +164,9 @@ a:focus {
   .intro .navbar-brand {
     margin: 0;
   }
+  .intro .navbar-nav {
+    margin: 10px 0 0 0;
+  }
 }
 .btn-circle {
   width: 70px;
@@ -271,6 +274,9 @@ a:focus {
 }
 .btn-default {
   border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 24px;
   color: #ffffff;
   background-color: transparent;
 }
