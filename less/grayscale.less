@@ -262,7 +262,9 @@ a {
 }
 
 @media(min-width:767px) {
-
+    .content-section.last-one {
+        padding-top: 250px;
+    }
     .download-section {
         padding: 100px 0;
     }
@@ -276,7 +278,7 @@ a {
 .btn {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -284,18 +286,17 @@ a {
 }
 
 .btn-default {
-    border: 1px solid @primary;
+    border: 2px solid @primary;
     color: @primary;
     background-color: transparent;
     &:hover,
     &:focus {
-        border: 1px solid @primary;
+        border: 2px solid @primary;
         outline: none;
         color: black;
         background-color: @primary;
     }
 }
-
 ul.banner-social-buttons {
     margin-top: 0;
     @media(max-width:1199px) {
