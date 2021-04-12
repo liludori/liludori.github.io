@@ -1,0 +1,35 @@
+.coupon-code-container {
+    background: url(../images/pink_template.png) center center no-repeat;
+}
+
+.coupon-code-container .percent {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text-jjshouse {
+    color: #f76793;
+}
+
+.btn-jjshouse,
+.btn-jjshouse:hover,
+.btn-jjshouse:active,
+.btn-jjshouse:focus {
+    background: #f76793;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-box-radius: 20px;
+    -ms-box-radius: 20px;
+    padding: 0.5em 0 0.5em 0;
+    font-size: 16px;
+}
+
+.modal-style-jjshouse {
+    border: 0 none;
+    -webkit-box-shadow: 0 0 20px #000;
+    -moz-box-shadow: 0 0 20px #000;
+    -ms-box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #000;
+}
